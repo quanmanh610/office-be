@@ -1,2 +1,2 @@
 singleServerConfig:
-  address: redis://192.168.72.16:6379
+  address: redis://172.20.19.207:6379

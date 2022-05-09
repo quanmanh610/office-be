@@ -1,0 +1,24 @@
+
+# upload - http://localhost:9093
+
+version: '3.7'
+services:
+  office_backend:
+    hostname: office_backend
+    container_name: office_backend
+    image: tdx-images/office-backend
+    environment:
+      - TZ=Asia/Ho_Chi_Minh
+    ports:
+      - "8081:8080"
+    # depends_on:
+    #   - config
+    # env_file:
+    #   - dev.env
+  #  logging:
+  #    driver: "json-file"
+  #    options:
+  #      max-size: "10m"
+  #      max-file: "3"
+ 
+  
